@@ -157,6 +157,7 @@ a {
 .font8 {
     font-family: 'Open sans';
     font-size: 16px;
+    font-weight: lighter;
 }
 
 
@@ -165,12 +166,11 @@ a {
 
 .circle {
     text-align: center;
-    margin-top: 10px;
 }
 
 .circle svg {
     width: 16px;
-    height: 16px;
+    height: 27px;
 }
 
 .line_vertical {
@@ -221,19 +221,31 @@ a {
     margin-top: 100px;
 }
 
-.left {
+.linecircle_left {
     display: flex;
     justify-content: end;
     margin-top: 50px;
-
 }
 
-.left div p {
+.linecircle_left .linecircle {
+    margin-left: 10px;
+}
+
+.linecircle_left div p {
     text-align: end;
 }
 
-.right {
-    margin: 0px 20px 40px 40px;
+.linecircle_right {
+    display: flex;
+    margin-top: 50px;
+}
+
+.linecircle_right .linecircle {
+    margin-right: 10px;
+}
+
+.video_text {
+    margin: 0px 40px 40px 40px;
 }
 .video {
     display: inline-block;
@@ -251,5 +263,70 @@ a {
 .text {
     width: 431px;
     line-height: 2em;
+}
+.video_text div p {
     margin-top: 20px;
+}
+
+/*---------------------END-----------------*/
+
+.end {
+    background-color: #C0C7B9;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+
+.end .circle {
+    padding: 30px;
+}
+
+.end .font {
+    letter-spacing:0.2em;
+    margin-left: 15px;
+}
+
+.section_end {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.foto {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
+/*-------------------------FOOTER---------------------*/
+
+footer {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open sans';
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer div div div {
+    padding: 19px 25px 9px 25px;
+}
+
+footer div div p {
 }
