@@ -104,7 +104,6 @@ a {
 
 .font {
     line-height: normal;
-    text-align: center;
     font-size: 40px;
     font-family: 'Open sans';
     font-weight: bolder;
@@ -144,7 +143,7 @@ a {
 
 .font6 {
     font-family: 'Open sans';
-    font-size: 16px;
+    font-size: 14px;
     font-weight:300;
     line-height: 30px;
 }
@@ -156,8 +155,13 @@ a {
 
 .font8 {
     font-family: 'Open sans';
-    font-size: 16px;
+    font-size: 14px;
     font-weight: lighter;
+}
+
+.font9 {
+    font-family: 'enriqueta';
+    font-size: 16px;
 }
 
 
@@ -175,7 +179,7 @@ a {
 
 .line_vertical {
     position: absolute;
-    margin-top: 75px;
+    margin-top: 74px;
 }
 
 /*-----------------------SECTION 1----------------------------*/
@@ -247,9 +251,6 @@ a {
 .video_text {
     margin: 0px 40px 40px 40px;
 }
-.video {
-    display: inline-block;
-}
 
 .position_svg2 {
     position: absolute;
@@ -262,7 +263,7 @@ a {
 
 .text {
     width: 431px;
-    line-height: 2em;
+    line-height: 1.95em;
 }
 .video_text div p {
     margin-top: 20px;
@@ -274,29 +275,97 @@ a {
     background-color: #C0C7B9;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 30px;
 }
 
 .end .circle {
-    padding: 30px;
+    padding: 25px;
 }
 
 .end .font {
-    letter-spacing:0.2em;
-    margin-left: 15px;
+    letter-spacing:0.1em;
+    margin-bottom: 40px;
 }
 
 .section_end {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 0px 40px 40px 40px;
 }
 
-.foto {
+.photo {
     display: flex;
     justify-content: end;
 }
 
+.section_end article {
+    margin: 0px 40px 40px 40px;
+}
 
+.section_end2 {
+    display: flex;
+    flex-direction: column;
+    width: 942px;
+}
+
+.section_end2 div {
+    width: 471px;
+}
+
+.corner {
+    margin: 0 0 40px 0;
+}
+
+.mail_newsletter {
+    display: flex;
+    line-height: 2.5em;
+}
+
+.newsletter .font9 {
+    margin: 0 0 15px 0;
+}
+
+.newsletter {
+    margin: 0 0 0 40px;
+}
+
+.enter_mail {
+    display: flex;
+    justify-content: right;
+}
+
+.input_mail {
+    width: 315px;
+    height: 40px;
+    border: 1px black solid;
+    background: transparent;
+    pointer-events: auto;
+    padding: 0 0 0 9px;
+    box-sizing: border-box;
+}
+
+.input_mail:hover {
+    border: 3px black solid;
+}
+
+.button {
+
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 0 0 0 11px;
+    transition: all 1s;
+}
+
+.button:hover {
+    background: white;
+    color: black;
+}
 
 
 
@@ -328,5 +397,4 @@ footer div div div {
     padding: 19px 25px 9px 25px;
 }
 
-footer div div p {
-}
+
